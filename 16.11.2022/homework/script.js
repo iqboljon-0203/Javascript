@@ -37,6 +37,8 @@
     // answer agar a=1 bolsa alertda 1 chiqadi, agar a=0 bolsa alertda 0 chiqadi;
     // yana a==2 yoki a==3 bolsa alertda 2,3 chiqadi
     // #3
+/////Tub sonlarni aniqlash
+
 // const number = parseInt(prompt("Enter a positive number: "));
 // let isPrime = true;
 // if (number === 1) {
@@ -58,5 +60,13 @@
 //     }
 // }
 // else {
-//     console.log("The number is not a prime number.");
+//     console.log("Bu son tub emas");
+// }
+// #4
+///Karra jadvali
+// for(let i=1;i<=9;i++){
+//     console.log(`${i} lik karra jadvali:\n\n`);
+//     for(let j=1;j<=10;j++){
+//         console.log(`${i}*${j}=${i*j}\n`);
+//     }
 // }
