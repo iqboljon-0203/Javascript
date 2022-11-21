@@ -24,3 +24,68 @@
 //     alert(`number ${i} !`);
 //     i++;
 // }
+/////Functions exercises
+// #1
+// function checkAge(age){
+//     if(age>18){
+//         return true;
+//     }else{
+//         return confirm('Did parents allow you?');
+//     }
+// }
+// checkAge(19)=> bu yerda age 19 ga teng shunda function true qaytaradi,agar age<18 confirm chiqadi oynaga agar ok bosilsa true,cancel bosilsa false qaytaradi
+// #2
+// function checkAge(age){
+//     if(age>18){
+//         return true;
+//     }else{
+//         return confirm('Did parents allow you?')||false;
+//     }
+// }
+// console.log(checkAge(16));
+// #3
+// function min(a,b){
+//     if(a<b){
+//         return a;
+//     }else{
+//         return b;
+//     }
+// }
+// console.log(min(3,4));
+// #4
+// let pow=function(x,n){
+//     return x**n;
+// };
+// console.log(pow(2,10));
+// #5
+// function ask(question,yes,no){
+//     if(confirm(question)){
+//         yes();
+//     }
+//     else{
+//         no();
+//     }
+// }
+// ask("Do you agree?",
+// function(){
+//     alert("You agreed!");
+// },
+// function(){
+//     alert("You cancelled the execution");
+// }); rewrite to arrow function
+////////
+// let ask=(question,yes,no)=>{
+//     if(confirm(question)){
+//         yes();
+//     }
+//     else{
+//         no();
+//     }
+// };
+// ask("Do you agree?",
+// function(){
+//     alert("You agreed!");
+// },
+// function(){
+//     alert("You cancelled the execution");
+// });
