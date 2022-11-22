@@ -1,4 +1,23 @@
 ////while exercises
+/////binary 
+// #1
+// function numberToBinary(number) {
+//     return (number >>> 0).toString(2);
+//   }
+//   console.log(numberToBinary(-1));
+// #2
+// function numberToBinary(number){
+//     let arr=[];
+//     let i=0;
+//     while(number>0){
+//         arr[i]=number%2;
+//         number=parseInt(number/2);
+//         i++;
+//     }
+//    return arr.reverse().join('');
+// }
+// console.log(numberToBinary(24));=> bu manfiy sonlar uchun ishlamaydi 
+
 // #1
 // let i=3;
 // while(i){
