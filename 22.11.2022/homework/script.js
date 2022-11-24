@@ -26,6 +26,16 @@
 //     Ann:160,
 //     Pete:130
 // }
+// ////Answer dynamic
+// function sortedObject(obj){
+//     let arr=Object.entries(saleries);
+//     arr=arr.sort((a,b)=>b[1]-a[1])
+//     console.log(arr);
+//     let sorted=arr.reduce((a,v)=>({...a,[v[0]]:v[1]}),{})
+//     return sorted;
+// }
+// console.log(sortedObject(saleries));
+///////ANother Answer
 // let sum=0;
 // for(let key in saleries){
 //     if(saleries==={}){
@@ -150,10 +160,25 @@
 //         child: {
 //             id: 1,
 //             name: 'Umar',
-//             age:20
+//             age:20,
+//             child:{
+//                 age:70
+//             }
 //         }
 //     }
 // };
+/////Answer dynamic
+// let sum=0
+// function sumAge(param){
+//     let arr=Object.keys(param).includes('child');
+//     sum+=param.age;
+//     if(arr){
+//         sumAge(param.child)
+//     }
+//     return sum;
+
+// }
+// console.log(sumAge(person))
 // Answer:
 // let sum=0;
 // for(let key in person){
