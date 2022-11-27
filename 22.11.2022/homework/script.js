@@ -167,6 +167,13 @@
 //         }
 //     }
 // };
+/////Answer with whilw loop
+// let sum=0;
+// while(person){
+//     sum+=person.age;
+//     person=person.child;
+// }
+// console.log(sum);
 /////Answer dynamic
 // let sum=0
 // function sumAge(param){
@@ -224,3 +231,16 @@
 //         { id: 3, name: 'Umar', age: 54 },
 //     ]
 // }
+// let arr=[];
+// while(user){
+//     if(user.age>18){
+//         arr.push(user);
+//         user.children.map(item=>{
+//             if(item.age>18){
+//                 arr.push(item);
+//                 user=item;
+//             }
+//         })
+//     }
+// }
+// console.log(arr);
