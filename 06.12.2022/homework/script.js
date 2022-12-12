@@ -50,3 +50,32 @@
 //     }
 // }
 // console.log(test([0,4,3,-1],2));
+// console.log(Object.fromEntries());=? objectdan arrayga
+/////Array.from(map object,set Object)=>array convert qiladi
+// {/* <caption></caption>=>sarlavha uchun */}
+// flex-item and pssitioned elements work z-index
+// transition => element and hover holatda qaysi birida farqi bor
+
+//// Factorial
+// function factorial(n){
+//     let answer = 1;
+//         if (n == 0 || n == 1){
+//          return answer;
+//        }else{
+//          for(let i = n; i >= 1; i--){
+//            answer = answer * i;
+//          }
+//          return answer;
+//        }  
+//    }
+/////
+// function factorial(n){
+//     let answer=1
+//     if(n===0||n===1){
+//         return answer
+//     }else{
+//         return answer*factorial(n-1);
+//     }
+// }
+// console.log(factorial(5));
+
