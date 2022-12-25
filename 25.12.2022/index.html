@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modules</title>
+</head>
+<body>
+    <script type="module">
+        import {users} from './users.js'
+        users.map(item=>{
+            console.log(`${item.id}-${item.name}`);
+        })
+        import users,{students as o'tda_kuymas ,users as data} from './users.js'
+        console.log(users);//students
+        console.log(students);//students
+        console.log(data);//users
+        import './utils.js'
+    </script>
+</body>
+</html>
