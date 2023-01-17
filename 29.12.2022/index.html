@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football game</title>
+    <style>
+        .body{
+            width: 100%;
+            height: 100vh;
+        }
+        .stadium{
+            position: relative;
+            width: 800px;
+            height: 500px;
+            display: block;
+            margin: 0 auto;
+            border:2px solid white;
+            border-radius: 10px;
+            background-image: url(./img/football\ stadium.png); 
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .ball{
+            position: absolute;
+            z-index: 1000;
+            width: 50px;
+            height: 50px;
+            border-radius:50%;
+            top:50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background-image:url(./img/ball_img.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; color: blueviolet;">Football game</h1>
+    <div onclick="press(event)" class="stadium">
+        <div class="ball">
+        </div>
+    </div>
+    <script src="./homework/script.js">
+    </script>
+</body>
+</html>

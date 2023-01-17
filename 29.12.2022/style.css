@@ -1,0 +1,25 @@
+.open{
+    display:none;
+}
+.carousel{
+    margin: 0 auto;
+    width: 70%;
+    position: relative;
+    background-color: yellow;
+    overflow: hidden;
+    padding: 30px;
+}
+.prev{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 2%;
+    font-size: 30px;
+}
+.next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 96%;
+    font-size: 30px;
+}
