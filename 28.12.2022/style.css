@@ -1,0 +1,10 @@
+.parent{
+    width: 300px;
+    border:2px solid black;
+    padding: 30px;
+}
+ul>li{
+    padding: 20px;
+    color: red;
+    border:1px solid blue;
+}
