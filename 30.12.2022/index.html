@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM 3</title>
+   <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <table onclick="press(event)" class="table" border="1">
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+        </tr>
+        <tr>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+        </tr>
+        <tr>
+            <th>7</th>
+            <th>8</th>
+            <th>9</th>
+        </tr>
+    </table>
+    <a onclick="press(event)" href="/home">click me</a>
+    <form class="form">
+        <input type="text">
+        <button type="submit">Submit</button>
+    </form>
+    <!-- <div id="parent" onclick="up()" class="parent">
+        <div onclick='press()' class="parent">
+            <div onclick="event.Propagation()" class="parent inner">
+                text
+            </div>
+        </div>
+    </div> -->
+    <!-- <input onchange="change(this)" id="input" type="text"> -->
+   <!-- <button  class="btn">Click me</button> -->
+    <script src="./lesson/main.js"></script>
+</body>
+</html>
