@@ -1,0 +1,42 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    background-color:rgb(33, 19, 19);
+    height: 100vh;
+    padding-left: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: centet;
+}
+.text{
+    color:white;
+    user-select: none;
+    font-size: 25px;
+}  */
+
+.box{
+    border:1px solid black;
+    width: 150px;
+    height: 200px;
+    overflow: auto;
+}
+
+.navbar{
+    width: 100%;
+    background-color:black;
+    color:white;
+    height: 50px;
+    display: flex;
+    align-items:center;
+    margin-top: 30px;
+    position: sticky;
+    top:0;
+    box-shadow: 19px 12px 20px 0;
+    justify-content: space-around;
+}
+.navbar >li{
+    list-style: none;
+}
