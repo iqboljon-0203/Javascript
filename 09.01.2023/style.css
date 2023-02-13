@@ -1,0 +1,8 @@
+p{
+    padding: 20px;
+    border: 1px solid red;
+    margin-bottom: 30px;
+}
+#rigth,#left{
+    flex:1;
+}
